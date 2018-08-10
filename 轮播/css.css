@@ -1,0 +1,38 @@
+body{
+  background-color: #F5F5DC;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  margin: 170px auto 0;
+  width: 790px;
+  height: 340px;
+  position: relative;
+}
+.wrap ul li{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: 1s;
+}
+.tab{
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  text-align: center;
+}
+.tab span{
+  background: #fff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+.tab span.on{
+  background: red;
+}
